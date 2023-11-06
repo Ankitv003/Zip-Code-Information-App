@@ -5,6 +5,7 @@ A simple React application that allows users to enter a postal code and fetch lo
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -13,6 +14,13 @@ A simple React application that allows users to enter a postal code and fetch lo
 ## Introduction
 
 The Zip Code Information App is a web application built with React that provides users with location information for a given postal code. It uses the [Zip Code API](https://app.zipcodebase.com/api/v1) to fetch and display location details.
+
+
+## Screenshots
+
+![Zip Code App main page](<Screenshot (159).png>)
+![Zip Code App search result part-1](<Screenshot (157).png>)
+![Zip Code App search result part-2](<Screenshot (158).png>)
 
 ## Features
 
