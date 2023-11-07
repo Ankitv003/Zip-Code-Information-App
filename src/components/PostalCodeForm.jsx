@@ -1,12 +1,12 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-const PostalCodeForm = ({ onSubmit }) => {
+const PostalCodeForm = ({ onSubmitForm }) => {
   const [zipCode, setZipCode] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit(zipCode);
+    onSubmitForm(zipCode);
     setZipCode("");
   };
 
@@ -31,7 +31,7 @@ const PostalCodeForm = ({ onSubmit }) => {
 
 // Defined PropTypes for the component
 PostalCodeForm.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
+  onSubmitForm: PropTypes.func.isRequired,
 };
 
 export default PostalCodeForm;

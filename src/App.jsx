@@ -48,7 +48,7 @@ const App = () => {
     <div className="App">
       <h1>Zip Code Information App</h1>
       <div className="zip-code-info">
-        <PostalCodeForm onSubmit={fetchLocationInfo} />
+        <PostalCodeForm onSubmitForm={fetchLocationInfo} />
         <LocationInfo
           location={location}
           loading={loading}
